@@ -1,8 +1,8 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%	For Symbol File: 'C:\wdc\Projects\GameOfLife\Game.sym',
-%	with string table size of 358 bytes, there is the following information:
+%	For Symbol File: 'C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.sym',
+%	with string table size of 406 bytes, there is the following information:
 %
 %	There are a total of 7 Sections with Info below:
 %					Section Map:
@@ -27,7 +27,7 @@
 %
 %%%	There are 1 Modules with Info below:
 %%%%%%%%%%%%%%%%
-%		Module #0 has name 'C:\wdc\Projects\GameOfLife\Game.obj'
+%		Module #0 has name 'C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.obj'
 %		There are 4 Section Records (see Section Table above for details)
 %		There are 396 Line Records:
 %					First 5 Line Records:
@@ -44,7 +44,7 @@
 %					Module Symbol Information:
 %			Rec #   Class        Symbol Informations
 %			-----   ----------   -------------------------------------
-%			    0   C_FILE     , Name = C:\wdc\Projects\GameOfLife\Game.asm, Index = 0
+%			    0   C_FILE     , Name = C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.asm, Index = 0
 %%%%%%%%%%%%%%%%
 %
 %	There are 0 Global Symbol Records:
@@ -55,7 +55,7 @@
 %	There are 0 Aux Records with Info below:
 %
 %	There are 1 File Records with Info below:
-%		File Record #   0 has   587 source lines and name 'C:\wdc\Projects\GameOfLife\Game.asm'
+%		File Record #   0 has   587 source lines and name 'C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.asm'
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -81,8 +81,8 @@
 %		String #   18 @0x000000F3 = '_BEG_VECTORS'
 %		String #   19 @0x00000100 = '_END_VECTORS'
 %		String #   20 @0x0000010D = '_ROM_BEG_VECTORS'
-%		String #   21 @0x0000011E = 'C:\wdc\Projects\GameOfLife\Game.obj'
-%		String #   22 @0x00000142 = 'C:\wdc\Projects\GameOfLife\Game.asm'
+%		String #   21 @0x0000011E = 'C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.obj'
+%		String #   22 @0x0000015A = 'C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.asm'
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %

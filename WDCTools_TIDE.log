@@ -5,7 +5,7 @@ wdc816as.exe  -g -DUSING_816 -DM_SMALL -l C:\wdc\Projects\GameOfLife\Game.asm
 Compile Complete
 ================
 >
-C:\WDC\Tools\bin\WDCLN.exe  -g -t -sz -HZ -oC:\wdc\Projects\GameOfLife\Game.bin C:\wdc\Projects\GameOfLife\Game.obj 
+C:\WDC\Tools\bin\WDCLN.exe  -g -t -sz -HZ -oC:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.bin C:\wdc\Projects\GameOfLife\Game.obj 
 
 >
 Link Complete
@@ -13,13 +13,14 @@ Link Complete
 >
 >> Creating *_sym.txt Report file:
 >> Creating *.llst Linked-Listing files:
-wdc816as.exe  -g -DUSING_816 -DM_SMALL -l C:\wdc\Projects\GameOfLife\Game.asm
+++ GEN Info: CreateLinkListFile: !!! No Listing file exists: File = : 'C:\wdc\Projects\GameOfLife\Game.lst'
+wdc816as.exe  -g -DUSING_816 -DM_SMALL -l C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.asm
 
 >
 Compile Complete
 ================
 >
-C:\WDC\Tools\bin\WDCLN.exe  -g -t -sz -HZ -oC:\wdc\Projects\GameOfLife\Game.bin C:\wdc\Projects\GameOfLife\Game.obj 
+C:\WDC\Tools\bin\WDCLN.exe  -g -t -sz -HZ -oC:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.bin C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.obj 
 
 >
 Link Complete
@@ -27,4 +28,5 @@ Link Complete
 >
 >> Creating *_sym.txt Report file:
 >> Creating *.llst Linked-Listing files:
+>> Setting WDCDB.INI file to USB Debug
 >> Setting WDCDB.INI file to USB Debug

@@ -1,4 +1,4 @@
-  Sun Nov  8 2015 17:27                                                Page 1
+  Sun Nov  8 2015 17:40                                                Page 1
 
     "Game of Life on a 24x24 LED."
     
@@ -58,7 +58,7 @@
     28                        ; I don't have to do any calculations for wrap aro
                     und or anything like that.
     29                        
-  Sun Nov  8 2015 17:27                                                Page 2
+  Sun Nov  8 2015 17:40                                                Page 2
 
     "Game of Life on a 24x24 LED."
     
@@ -118,7 +118,7 @@
                      Port B
     66             00007FC3   VIA_DDRA      EQU VIA+3           ; Data Direction
                      Port A
-  Sun Nov  8 2015 17:27                                                Page 3
+  Sun Nov  8 2015 17:40                                                Page 3
 
     "Game of Life on a 24x24 LED."
     
@@ -178,7 +178,7 @@
    100                        
    101                          CHIP	65C02
    102                          LONGI	OFF
-  Sun Nov  8 2015 17:27                                                Page 4
+  Sun Nov  8 2015 17:40                                                Page 4
 
     "Game of Life on a 24x24 LED."
     
@@ -188,7 +188,7 @@
    105                          .sttl "Game of Life on a 24x24 LED."
    106                          .page
    107                        
-  Sun Nov  8 2015 17:27                                                Page 5
+  Sun Nov  8 2015 17:40                                                Page 5
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -248,7 +248,7 @@
    151 00:1048: 85 43                      STA GridHi
    152 00:104A: 18           grid_loaded   CLC                 ; Clear carry so 
                     we can add 27 to the grid address.
-  Sun Nov  8 2015 17:27                                                Page 6
+  Sun Nov  8 2015 17:40                                                Page 6
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -308,7 +308,7 @@
    190 00:108F: 26 36        updateLedGrid ROL temp            ; Shift in LED.
    191 00:1091: C6 33                      DEC count           ; 8 bits yet ?
    192 00:1093: D0 10                      BNE ulgdone
-  Sun Nov  8 2015 17:27                                                Page 7
+  Sun Nov  8 2015 17:40                                                Page 7
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -368,7 +368,7 @@
    233 00:10E0: A0 00                      LDY #0              ; Zero Y
    234 00:10E2: A5 46                      LDA cell_count      ; Get result
    235 00:10E4: C9 02                      CMP #02             ; Two cells ?
-  Sun Nov  8 2015 17:27                                                Page 8
+  Sun Nov  8 2015 17:40                                                Page 8
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -428,7 +428,7 @@
    274 00:112F: 60                         RTS
    275                        
    276 00:1130: A0 00        count_hood    LDY #0
-  Sun Nov  8 2015 17:27                                                Page 9
+  Sun Nov  8 2015 17:40                                                Page 9
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -488,7 +488,7 @@
    319 00:1181: 84 33                      STY count           ; Count 8 rows
    320                        
    321 00:1183: A6 34        sgdloop1      LDX rows            ; Row to X
-  Sun Nov  8 2015 17:27                                                Page 10
+  Sun Nov  8 2015 17:40                                                Page 10
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -548,7 +548,7 @@
    361 00:11C8: 8D CB 7F                   STA VIA_ACR
    362 00:11CB: 60                         RTS
    363                        
-  Sun Nov  8 2015 17:27                                                Page 11
+  Sun Nov  8 2015 17:40                                                Page 11
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -608,7 +608,7 @@
    406 00:121F: AD CD 7F     d_wait2       LDA VIA_IFR         ; Are we done yet
                      ?
    407 00:1222: 29 04                      AND #$04
-  Sun Nov  8 2015 17:27                                                Page 12
+  Sun Nov  8 2015 17:40                                                Page 12
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -668,7 +668,7 @@
        00:005C: 00 00 00 00 
        00:0060: 00 00 
    451 00:0062: 00 00 00 00        BYTE 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-  Sun Nov  8 2015 17:27                                                Page 13
+  Sun Nov  8 2015 17:40                                                Page 13
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -728,7 +728,7 @@
        00:010E: 00 00 00 00 
        00:0112: 00 00 00 00 
        00:0116: 00 00 
-  Sun Nov  8 2015 17:27                                                Page 14
+  Sun Nov  8 2015 17:40                                                Page 14
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -788,7 +788,7 @@
        00:01C0: 00 00 00 00 
        00:01C4: 00 00 00 00 
        00:01C8: 00 00 00 00 
-  Sun Nov  8 2015 17:27                                                Page 15
+  Sun Nov  8 2015 17:40                                                Page 15
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -848,7 +848,7 @@
        00:0272: 00 00 00 00 
        00:0276: 00 00 00 00 
        00:027A: 00 00 00 00 
-  Sun Nov  8 2015 17:27                                                Page 16
+  Sun Nov  8 2015 17:40                                                Page 16
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -908,7 +908,7 @@
        00:031E: 00 00 
    481 00:0320: 00 00 00 00        BYTE 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                     0,0,0,0,0,0 ; 3
-  Sun Nov  8 2015 17:27                                                Page 17
+  Sun Nov  8 2015 17:40                                                Page 17
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -968,7 +968,7 @@
        00:03D0: 00 00 00 00 
        00:03D4: 00 00 
    488 00:03D6: 00 00 00 00        BYTE 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-  Sun Nov  8 2015 17:27                                                Page 18
+  Sun Nov  8 2015 17:40                                                Page 18
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -1028,7 +1028,7 @@
        00:0482: 00 00 00 00 
        00:0486: 00 00 00 00 
        00:048A: 00 00 
-  Sun Nov  8 2015 17:27                                                Page 19
+  Sun Nov  8 2015 17:40                                                Page 19
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -1088,7 +1088,7 @@
        00:0534: 00 00 00 00 
        00:0538: 00 00 00 00 
        00:053C: 00 00 00 00 
-  Sun Nov  8 2015 17:27                                                Page 20
+  Sun Nov  8 2015 17:40                                                Page 20
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -1148,7 +1148,7 @@
    528 00:1239: 68                 	pla
    529 00:123A: 28                 	plp
    530 00:123B: 40                 	rti
-  Sun Nov  8 2015 17:27                                                Page 21
+  Sun Nov  8 2015 17:40                                                Page 21
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."
@@ -1208,7 +1208,7 @@
    562 00:7F00:               ends
    563                        
    564                        vectors	SECTION OFFSET $FFE0
-  Sun Nov  8 2015 17:27                                                Page 22
+  Sun Nov  8 2015 17:40                                                Page 22
 
     "Game of Life on a 24x24 LED."
     "Game of Life on a 24x24 LED."

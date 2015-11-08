@@ -1,14 +1,14 @@
 [Version]	=v2.0.5.0
 [ProjectFiles]	=2
 	File_0=C:\wdc\Projects\GameOfLife\GameOfLife.wdc
-	File_1=C:\wdc\Projects\GameOfLife\Game.asm
+	File_1=C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.asm
 [Path]
 	Assembler=wdc816as.exe
 	Compiler=wdc816cc.exe
 	Linker=C:\WDC\Tools\bin\WDCLN.exe
 	Includes=C:\WDC\Tools\include
 	Library=C:\WDC\Tools\lib
-	OutputFile=C:\wdc\Projects\GameOfLife\Game.bin
+	OutputFile=C:\wdc\Projects\GameOfLife\W65C816SXB-Game-Of-life\Game.bin
 	RcfConverter=C:\WDC\Tools\bin\srec_cat.exe
 [Target]
 	TargetSizeSel=1
@@ -79,13 +79,13 @@
 	IsFloating=true
 	WindState=0
 	Align=0
-	WindShape=96,96,297,217
+	WindShape=144,144,297,217
 [Wind.Listing_0]	
 	IsVisible=false
 	IsFloating=true
 	WindState=0
 	Align=0
-	WindShape=120,120,277,221
+	WindShape=168,168,277,221
 [Wind.Data]	
 	IsVisible=false
 	IsFloating=true
@@ -97,25 +97,25 @@
 	IsFloating=true
 	WindState=0
 	Align=0
-	WindShape=144,144,206,176
+	WindShape=192,192,206,176
 [Wind.Locals]	
 	IsVisible=false
 	IsFloating=true
 	WindState=0
 	Align=0
-	WindShape=168,168,257,210
+	WindShape=216,216,257,210
 [Wind.Breakpoint]	
 	IsVisible=false
 	IsFloating=true
 	WindState=0
 	Align=0
-	WindShape=216,216,553,209
+	WindShape=24,24,553,209
 [Wind.Decoder]	
 	IsVisible=false
 	IsFloating=true
 	WindState=0
 	Align=0
-	WindShape=240,240,331,145
+	WindShape=24,24,331,145
 [Wind.UsbCapture]	
 	IsVisible=false
 	IsFloating=true
