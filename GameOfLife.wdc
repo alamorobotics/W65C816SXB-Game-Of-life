@@ -1,0 +1,125 @@
+[Version]	=v2.0.5.0
+[ProjectFiles]	=2
+	File_0=C:\wdc\Projects\GameOfLife\GameOfLife.wdc
+	File_1=C:\wdc\Projects\GameOfLife\Game.asm
+[Path]
+	Assembler=wdc816as.exe
+	Compiler=wdc816cc.exe
+	Linker=C:\WDC\Tools\bin\WDCLN.exe
+	Includes=C:\WDC\Tools\include
+	Library=C:\WDC\Tools\lib
+	OutputFile=C:\wdc\Projects\GameOfLife\Game.bin
+	RcfConverter=C:\WDC\Tools\bin\srec_cat.exe
+[Target]
+	TargetSizeSel=1
+	DebugPortType=0
+	TideUsbEnable=false
+	DebugPortNum=-1
+[Compiler]
+	UseMicronasMult=false
+	UsePeepholeOptimize=false
+	MakeAssemblyListing=true
+	MemoryModelSel=0
+	ExtraDefs_0=
+	ExtraDefs_1=
+	ExtraDefs_2=
+	ExtraDefs_3=
+	ExtraDefs_4=
+	ExtraDefs_5=
+[Linker]
+	CODEoffset=
+	DATAoffset=
+	UDATAoffset=
+	KDATAoffset=
+	IsDebug=true
+	UseMathLib=false
+	UseStandardLib=false
+	IsStartupObj=false
+	OutputFormatSel=8
+	DoRcfOutput=false
+	DoMemOutput=false
+	MemBlockStart=00008000
+	MemBlockSize=00004000
+	MemBlockCount=2
+[IDE]
+	UseSyntaxHighight=true
+	UseBlankWindow=true
+	ObjOffsetSourceSel=false
+[PlugIn]
+	DebugWorkSel=2
+	DebugWorkPath=C:\WDC\Tools\Projects\W65C02S_Demo
+	EditorWorkSel=2
+	EditorWorkPath=C:\WDC\Tools\Projects\W65C02S_Demo
+	HdlSimWorkSel=1
+	HdlSimWorkPath=C:\Projects\PMCU\W65C02SPMCU
+	FpgaToolWorkSel=1
+	FpgaToolWorkPath=C:\Projects\PMCU\W65C02SPMCU
+	LogicAnalyzeWorkSel=0
+	LogicAnalyzeWorkPath=C:\Program Files\LogicPort\Projects
+[Wind.Main]	
+	IsVisible=true
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=120,120,955,592
+[Wind.Project]	
+	IsVisible=true
+	IsFloating=false
+	WindState=0
+	Align=0
+	WindShape=1,13,937,393
+[Wind.Source_0]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=411,200,459,359
+[Wind.Register]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=96,96,297,217
+[Wind.Listing_0]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=120,120,277,221
+[Wind.Data]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=91,300,1121,461
+[Wind.Watch]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=144,144,206,176
+[Wind.Locals]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=168,168,257,210
+[Wind.Breakpoint]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=216,216,553,209
+[Wind.Decoder]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=240,240,331,145
+[Wind.UsbCapture]	
+	IsVisible=false
+	IsFloating=true
+	WindState=0
+	Align=0
+	WindShape=96,96,563,406
+[END_PROJ]	
